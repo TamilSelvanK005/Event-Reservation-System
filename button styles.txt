@@ -1,0 +1,8 @@
+<button type="button" class="btn mr-md-2 mb-md-0 mb-2 btn-outline-primary">Primary</button>
+<button type="button" class="btn mr-md-2 mb-md-0 mb-2 btn-outline-success">Success</button>
+<button type="button" class="btn mr-md-2 mb-md-0 mb-2 btn-outline-danger">Danger</button>
+<button type="button" class="btn mr-md-2 mb-md-0 mb-2 btn-outline-warning">Warning</button>
+<button type="button" class="btn mr-md-2 mb-md-0 mb-2 btn-outline-info">Info</button>
+<button type="button" class="btn mr-md-2 mb-md-0 mb-2 btn-outline-light">Light</button>
+<button type="button" class="btn mr-md-2 mb-md-0 mb-2 btn-outline-dark">Dark</button>
+btn btn-danger

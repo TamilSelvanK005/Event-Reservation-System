@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>A to Z</title>
+  <link rel="stylesheet" href="login/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+  <div class="title-text">
+    <div class="title login">Login Form</div>
+    <div class="title signup">Signup Form</div>
+  </div>
+  <div class="form-container">
+    <div class="slide-controls">
+      <input type="radio" name="slide" id="login" checked>
+      <input type="radio" name="slide" id="signup">
+      <label for="login" class="slide login">Login</label>
+      <label for="signup" class="slide signup">Signup</label>
+      <div class="slider-tab"></div>
+    </div>
+    <div class="form-inner">
+      <form action="login_API.php" class="login">
+        <div class="field">
+          <input type="text" name="username"  placeholder="Email Address" required>
+        </div>
+        <div class="field">
+          <input type="password" name="password" placeholder="Password" required>
+        </div>
+        <div class="pass-link"><a href="#">Forgot password?</a></div>
+        <div class="field btn">
+          <div class="btn-layer"></div>
+          <input type="submit" value="Login">
+        </div>
+        <div class="signup-link">Not a member? <a href="#">Signup now</a></div>
+      </form>
+	  
+     
+	  <form action="registraion.php" class="signup" method="post">
+        <div class="field">
+          <input type="text" placeholder="Username" name="name" required>
+        </div>
+		<div class="field">
+          <input type="mail" placeholder="Email Address" name="email" required>
+        </div>
+		<div class="field">
+          <input type="password" placeholder="Password" name="pass" required>
+        </div>
+		<div class="field">
+          <input type="password" placeholder="Re-Password" name="pass1" required>
+        </div>
+		<div class="field">
+          <input type="text" placeholder="Contry" name="contry" required>
+        </div>
+        <div class="field">
+          <input type="text" placeholder="City" name="city" required>
+        </div>
+        <div class="field">
+          <input type="text" placeholder="Address" name="add" required>
+        </div>
+		<div class="field">
+          <input type="text" placeholder="Phone Number" name="phone" required>
+        </div>
+        <div class="field btn">
+          <div class="btn-layer"></div>
+          <input type="submit" value="Signup" name="submit">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="login/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<div class="col-lg-12 col-md-12 col-12">
+									<div class="form-group">
+										<input name="yos" type="number" placeholder="Enter the Year of Study">
+									</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+									<div class="form-group">
+										<input name="returndate" type="text" placeholder="Enter the Return Date">
+									</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+									<div class="form-group">
+										<input name="currentdate" type="text" placeholder="Enter the Current Date">
+									</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+									<div class="form-group">
+										<input name="issueDate" type="text" placeholder="Enter the Issued Date">
+									</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+									<div class="form-group">
+										<input name="dueDate" type="text" placeholder="Enter the Due dates">
+									</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+									<div class="form-group">
+										<input name="fineAmnt" type="number" placeholder="Enter the Fine Ammount">
+									</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-12">
+									<div class="form-group">
+										<input name="feeAmnt" type="number" placeholder="Enter the Fees Ammount">
+									</div>
+									</div>
